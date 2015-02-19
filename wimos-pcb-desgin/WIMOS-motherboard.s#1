@@ -3217,7 +3217,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="POWER_MODULE" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GPIO_D1_4B" library="pinhead" deviceset="PINHD-1X7" device="/90"/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="SD_MODULE" library="pinhead" deviceset="PINHD-1X8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3316,7 +3316,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="POWER_MODULE" gate="G$1" x="289.56" y="73.66"/>
 <instance part="GPIO_D1_4B" gate="A" x="424.18" y="96.52"/>
 <instance part="FRAME2" gate="G$1" x="482.6" y="53.34"/>
-<instance part="JP1" gate="A" x="322.58" y="139.7"/>
+<instance part="SD_MODULE" gate="A" x="322.58" y="139.7"/>
 </instances>
 <busses>
 </busses>
@@ -3327,32 +3327,12 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="241.3" y1="215.9" x2="220.98" y2="215.9" width="0.1524" layer="91"/>
 <label x="220.98" y="215.9" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="I2C_MODULE" gate="A" pin="4"/>
-<wire x1="320.04" y1="86.36" x2="307.34" y2="86.36" width="0.1524" layer="91"/>
-<label x="307.34" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IMU_MODULE" gate="A" pin="4"/>
-<wire x1="320.04" y1="111.76" x2="307.34" y2="111.76" width="0.1524" layer="91"/>
-<label x="302.26" y="111.76" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="DUE_SDA1" class="0">
 <segment>
 <pinref part="DUE_MODULE1" gate="A" pin="9"/>
 <wire x1="241.3" y1="213.36" x2="220.98" y2="213.36" width="0.1524" layer="91"/>
 <label x="220.98" y="213.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="I2C_MODULE" gate="A" pin="3"/>
-<wire x1="320.04" y1="88.9" x2="307.34" y2="88.9" width="0.1524" layer="91"/>
-<label x="307.34" y="88.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IMU_MODULE" gate="A" pin="3"/>
-<wire x1="320.04" y1="114.3" x2="307.34" y2="114.3" width="0.1524" layer="91"/>
-<label x="302.26" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DUE_AREF" class="0">
@@ -3376,7 +3356,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="220.98" y="205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="5"/>
+<pinref part="SD_MODULE" gate="A" pin="5"/>
 <wire x1="320.04" y1="139.7" x2="309.88" y2="139.7" width="0.1524" layer="91"/>
 <label x="302.26" y="139.7" size="1.778" layer="95"/>
 </segment>
@@ -3388,7 +3368,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="220.98" y="203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="SD_MODULE" gate="A" pin="4"/>
 <wire x1="320.04" y1="142.24" x2="309.88" y2="142.24" width="0.1524" layer="91"/>
 <label x="302.26" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -3400,7 +3380,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="220.98" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="SD_MODULE" gate="A" pin="3"/>
 <wire x1="320.04" y1="144.78" x2="309.88" y2="144.78" width="0.1524" layer="91"/>
 <label x="302.26" y="144.78" size="1.778" layer="95"/>
 </segment>
@@ -3412,7 +3392,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="220.98" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="SD_MODULE" gate="A" pin="2"/>
 <wire x1="320.04" y1="147.32" x2="309.88" y2="147.32" width="0.1524" layer="91"/>
 <label x="302.26" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -3508,6 +3488,16 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="320.04" y1="66.04" x2="307.34" y2="66.04" width="0.1524" layer="91"/>
 <label x="307.34" y="66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="I2C_MODULE" gate="A" pin="4"/>
+<wire x1="320.04" y1="86.36" x2="307.34" y2="86.36" width="0.1524" layer="91"/>
+<label x="307.34" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IMU_MODULE" gate="A" pin="4"/>
+<wire x1="320.04" y1="111.76" x2="307.34" y2="111.76" width="0.1524" layer="91"/>
+<label x="302.26" y="111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DUE_SDA" class="0">
 <segment>
@@ -3519,6 +3509,16 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="CONFIGURATION_MODULE" gate="A" pin="3"/>
 <wire x1="320.04" y1="68.58" x2="307.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="307.34" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="I2C_MODULE" gate="A" pin="3"/>
+<wire x1="320.04" y1="88.9" x2="307.34" y2="88.9" width="0.1524" layer="91"/>
+<label x="307.34" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IMU_MODULE" gate="A" pin="3"/>
+<wire x1="320.04" y1="114.3" x2="307.34" y2="114.3" width="0.1524" layer="91"/>
+<label x="302.26" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DUE_RX1" class="0">
@@ -3765,7 +3765,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="274.32" y="149.86" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="8"/>
+<pinref part="SD_MODULE" gate="A" pin="8"/>
 <wire x1="320.04" y1="132.08" x2="309.88" y2="132.08" width="0.1524" layer="91"/>
 <label x="304.8" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -3912,7 +3912,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="304.8" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="6"/>
+<pinref part="SD_MODULE" gate="A" pin="6"/>
 <wire x1="320.04" y1="137.16" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
 <label x="307.34" y="137.16" size="1.778" layer="95"/>
 </segment>
@@ -3926,226 +3926,114 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 </net>
 <net name="DUE_PIN24" class="0">
 <segment>
-<pinref part="DUE_MODULE4" gate="A" pin="32"/>
-<wire x1="284.48" y1="213.36" x2="274.32" y2="213.36" width="0.1524" layer="91"/>
-<label x="274.32" y="213.36" size="1.778" layer="95" rot="R180"/>
+<pinref part="DUE_MODULE4" gate="A" pin="6"/>
+<wire x1="284.48" y1="180.34" x2="274.32" y2="180.34" width="0.1524" layer="91"/>
+<label x="274.32" y="180.34" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="DUE_PIN28" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="28"/>
-<wire x1="284.48" y1="208.28" x2="274.32" y2="208.28" width="0.1524" layer="91"/>
-<label x="274.32" y="208.28" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN26" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="30"/>
-<wire x1="284.48" y1="210.82" x2="274.32" y2="210.82" width="0.1524" layer="91"/>
-<label x="274.32" y="210.82" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN22" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="34"/>
-<wire x1="284.48" y1="215.9" x2="274.32" y2="215.9" width="0.1524" layer="91"/>
-<label x="274.32" y="215.9" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN25" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="31"/>
-<wire x1="292.1" y1="213.36" x2="312.42" y2="213.36" width="0.1524" layer="91"/>
-<label x="312.42" y="213.36" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN32" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="24"/>
-<wire x1="284.48" y1="203.2" x2="274.32" y2="203.2" width="0.1524" layer="91"/>
-<label x="274.32" y="203.2" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN34" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="22"/>
-<wire x1="284.48" y1="200.66" x2="274.32" y2="200.66" width="0.1524" layer="91"/>
-<label x="274.32" y="200.66" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN36" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="20"/>
-<wire x1="284.48" y1="198.12" x2="274.32" y2="198.12" width="0.1524" layer="91"/>
-<label x="274.32" y="198.12" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN40" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="16"/>
-<wire x1="284.48" y1="193.04" x2="274.32" y2="193.04" width="0.1524" layer="91"/>
-<label x="274.32" y="193.04" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN44" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="12"/>
-<wire x1="284.48" y1="187.96" x2="274.32" y2="187.96" width="0.1524" layer="91"/>
-<label x="274.32" y="187.96" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN48" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="8"/>
-<wire x1="284.48" y1="182.88" x2="274.32" y2="182.88" width="0.1524" layer="91"/>
-<label x="274.32" y="182.88" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN52" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="4"/>
-<wire x1="284.48" y1="177.8" x2="274.32" y2="177.8" width="0.1524" layer="91"/>
-<label x="274.32" y="177.8" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN38" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="18"/>
-<wire x1="284.48" y1="195.58" x2="274.32" y2="195.58" width="0.1524" layer="91"/>
-<label x="274.32" y="195.58" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN42" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="14"/>
-<wire x1="284.48" y1="190.5" x2="274.32" y2="190.5" width="0.1524" layer="91"/>
-<label x="274.32" y="190.5" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN46" class="0">
 <segment>
 <pinref part="DUE_MODULE4" gate="A" pin="10"/>
 <wire x1="284.48" y1="185.42" x2="274.32" y2="185.42" width="0.1524" layer="91"/>
 <label x="274.32" y="185.42" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="DUE_PIN50" class="0">
+<net name="DUE_PIN26" class="0">
 <segment>
-<pinref part="DUE_MODULE4" gate="A" pin="6"/>
-<wire x1="284.48" y1="180.34" x2="274.32" y2="180.34" width="0.1524" layer="91"/>
-<label x="274.32" y="180.34" size="1.778" layer="95" rot="R180"/>
+<pinref part="DUE_MODULE4" gate="A" pin="8"/>
+<wire x1="284.48" y1="182.88" x2="274.32" y2="182.88" width="0.1524" layer="91"/>
+<label x="274.32" y="182.88" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="DUE_PIN23" class="0">
+<net name="DUE_PIN22" class="0">
 <segment>
-<pinref part="DUE_MODULE4" gate="A" pin="33"/>
-<wire x1="292.1" y1="215.9" x2="312.42" y2="215.9" width="0.1524" layer="91"/>
-<label x="312.42" y="215.9" size="1.778" layer="95" rot="R180"/>
+<pinref part="DUE_MODULE4" gate="A" pin="4"/>
+<wire x1="284.48" y1="177.8" x2="274.32" y2="177.8" width="0.1524" layer="91"/>
+<label x="274.32" y="177.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="DUE_PIN27" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="29"/>
-<wire x1="292.1" y1="210.82" x2="312.42" y2="210.82" width="0.1524" layer="91"/>
-<label x="312.42" y="210.82" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN31" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="25"/>
-<wire x1="292.1" y1="205.74" x2="312.42" y2="205.74" width="0.1524" layer="91"/>
-<label x="312.42" y="205.74" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN33" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="23"/>
-<wire x1="292.1" y1="203.2" x2="312.42" y2="203.2" width="0.1524" layer="91"/>
-<label x="312.42" y="203.2" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN35" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="21"/>
-<wire x1="292.1" y1="200.66" x2="312.42" y2="200.66" width="0.1524" layer="91"/>
-<label x="312.42" y="200.66" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN39" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="17"/>
-<wire x1="292.1" y1="195.58" x2="312.42" y2="195.58" width="0.1524" layer="91"/>
-<label x="312.42" y="195.58" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN37" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="19"/>
-<wire x1="292.1" y1="198.12" x2="312.42" y2="198.12" width="0.1524" layer="91"/>
-<label x="312.42" y="198.12" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN41" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="15"/>
-<wire x1="292.1" y1="193.04" x2="312.42" y2="193.04" width="0.1524" layer="91"/>
-<label x="312.42" y="193.04" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN49" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="7"/>
-<wire x1="292.1" y1="182.88" x2="312.42" y2="182.88" width="0.1524" layer="91"/>
-<label x="312.42" y="182.88" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN45" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="11"/>
-<wire x1="292.1" y1="187.96" x2="312.42" y2="187.96" width="0.1524" layer="91"/>
-<label x="312.42" y="187.96" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN43" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="13"/>
-<wire x1="292.1" y1="190.5" x2="312.42" y2="190.5" width="0.1524" layer="91"/>
-<label x="312.42" y="190.5" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN47" class="0">
-<segment>
-<pinref part="DUE_MODULE4" gate="A" pin="9"/>
-<wire x1="292.1" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
-<label x="312.42" y="185.42" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="DUE_PIN51" class="0">
+<net name="DUE_PIN25" class="0">
 <segment>
 <pinref part="DUE_MODULE4" gate="A" pin="5"/>
 <wire x1="292.1" y1="180.34" x2="312.42" y2="180.34" width="0.1524" layer="91"/>
 <label x="312.42" y="180.34" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="DUE_PIN53" class="0">
+<net name="DUE_PIN32" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="14"/>
+<wire x1="284.48" y1="190.5" x2="274.32" y2="190.5" width="0.1524" layer="91"/>
+<label x="274.32" y="190.5" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN34" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="16"/>
+<wire x1="284.48" y1="193.04" x2="274.32" y2="193.04" width="0.1524" layer="91"/>
+<label x="274.32" y="193.04" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN36" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="18"/>
+<wire x1="284.48" y1="195.58" x2="274.32" y2="195.58" width="0.1524" layer="91"/>
+<label x="274.32" y="195.58" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN23" class="0">
 <segment>
 <pinref part="DUE_MODULE4" gate="A" pin="3"/>
 <wire x1="292.1" y1="177.8" x2="312.42" y2="177.8" width="0.1524" layer="91"/>
 <label x="312.42" y="177.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
+<net name="DUE_PIN27" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="7"/>
+<wire x1="292.1" y1="182.88" x2="312.42" y2="182.88" width="0.1524" layer="91"/>
+<label x="312.42" y="182.88" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN31" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="11"/>
+<wire x1="292.1" y1="187.96" x2="312.42" y2="187.96" width="0.1524" layer="91"/>
+<label x="312.42" y="187.96" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN33" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="13"/>
+<wire x1="292.1" y1="190.5" x2="312.42" y2="190.5" width="0.1524" layer="91"/>
+<label x="312.42" y="190.5" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN35" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="15"/>
+<wire x1="292.1" y1="193.04" x2="312.42" y2="193.04" width="0.1524" layer="91"/>
+<label x="312.42" y="193.04" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN37" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="17"/>
+<wire x1="292.1" y1="195.58" x2="312.42" y2="195.58" width="0.1524" layer="91"/>
+<label x="312.42" y="195.58" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
 <net name="DUE_PIN30" class="0">
 <segment>
-<pinref part="DUE_MODULE4" gate="A" pin="26"/>
-<wire x1="284.48" y1="205.74" x2="274.32" y2="205.74" width="0.1524" layer="91"/>
-<label x="274.32" y="205.74" size="1.778" layer="95" rot="R180"/>
+<pinref part="DUE_MODULE4" gate="A" pin="12"/>
+<wire x1="284.48" y1="187.96" x2="274.32" y2="187.96" width="0.1524" layer="91"/>
+<label x="274.32" y="187.96" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="DUE_PIN29" class="0">
 <segment>
-<pinref part="DUE_MODULE4" gate="A" pin="27"/>
-<wire x1="292.1" y1="208.28" x2="312.42" y2="208.28" width="0.1524" layer="91"/>
-<label x="312.42" y="208.28" size="1.778" layer="95" rot="R180"/>
+<pinref part="DUE_MODULE4" gate="A" pin="9"/>
+<wire x1="292.1" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
+<label x="312.42" y="185.42" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SCREEN_PIN1" class="0">
@@ -4649,16 +4537,128 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 </net>
 <net name="SD_CD" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="SD_MODULE" gate="A" pin="1"/>
 <wire x1="320.04" y1="149.86" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
 <label x="307.34" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_3.3V" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="7"/>
+<pinref part="SD_MODULE" gate="A" pin="7"/>
 <wire x1="320.04" y1="134.62" x2="309.88" y2="134.62" width="0.1524" layer="91"/>
 <label x="304.8" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DUE_PIN38" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="20"/>
+<wire x1="284.48" y1="198.12" x2="274.32" y2="198.12" width="0.1524" layer="91"/>
+<label x="274.32" y="198.12" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN40" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="22"/>
+<wire x1="284.48" y1="200.66" x2="274.32" y2="200.66" width="0.1524" layer="91"/>
+<label x="274.32" y="200.66" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN42" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="24"/>
+<wire x1="284.48" y1="203.2" x2="274.32" y2="203.2" width="0.1524" layer="91"/>
+<label x="274.32" y="203.2" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN44" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="26"/>
+<wire x1="284.48" y1="205.74" x2="274.32" y2="205.74" width="0.1524" layer="91"/>
+<label x="274.32" y="205.74" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN46" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="28"/>
+<wire x1="284.48" y1="208.28" x2="274.32" y2="208.28" width="0.1524" layer="91"/>
+<label x="274.32" y="208.28" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN48" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="30"/>
+<wire x1="284.48" y1="210.82" x2="274.32" y2="210.82" width="0.1524" layer="91"/>
+<label x="274.32" y="210.82" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN50" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="32"/>
+<wire x1="284.48" y1="213.36" x2="274.32" y2="213.36" width="0.1524" layer="91"/>
+<label x="274.32" y="213.36" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN52" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="34"/>
+<wire x1="284.48" y1="215.9" x2="274.32" y2="215.9" width="0.1524" layer="91"/>
+<label x="274.32" y="215.9" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN39" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="19"/>
+<wire x1="292.1" y1="198.12" x2="312.42" y2="198.12" width="0.1524" layer="91"/>
+<label x="312.42" y="198.12" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN41" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="21"/>
+<wire x1="292.1" y1="200.66" x2="312.42" y2="200.66" width="0.1524" layer="91"/>
+<label x="312.42" y="200.66" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN43" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="23"/>
+<wire x1="292.1" y1="203.2" x2="312.42" y2="203.2" width="0.1524" layer="91"/>
+<label x="312.42" y="203.2" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN45" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="25"/>
+<wire x1="292.1" y1="205.74" x2="312.42" y2="205.74" width="0.1524" layer="91"/>
+<label x="312.42" y="205.74" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN47" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="27"/>
+<wire x1="292.1" y1="208.28" x2="312.42" y2="208.28" width="0.1524" layer="91"/>
+<label x="312.42" y="208.28" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN49" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="29"/>
+<wire x1="292.1" y1="210.82" x2="312.42" y2="210.82" width="0.1524" layer="91"/>
+<label x="312.42" y="210.82" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN51" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="31"/>
+<wire x1="292.1" y1="213.36" x2="312.42" y2="213.36" width="0.1524" layer="91"/>
+<label x="312.42" y="213.36" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DUE_PIN53" class="0">
+<segment>
+<pinref part="DUE_MODULE4" gate="A" pin="33"/>
+<wire x1="292.1" y1="215.9" x2="312.42" y2="215.9" width="0.1524" layer="91"/>
+<label x="312.42" y="215.9" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>

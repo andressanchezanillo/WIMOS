@@ -3538,6 +3538,11 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="337.82" y1="218.44" x2="317.5" y2="218.44" width="0.1524" layer="91"/>
 <label x="317.5" y="218.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IMU_MODULE" gate="A" pin="1"/>
+<wire x1="320.04" y1="119.38" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
+<label x="302.26" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DUE_5V" class="0">
 <segment>
@@ -3581,10 +3586,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="I2C_MODULE" gate="A" pin="2"/>
 <wire x1="320.04" y1="91.44" x2="307.34" y2="91.44" width="0.1524" layer="91"/>
 <label x="307.34" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="320.04" y1="116.84" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
-<label x="307.34" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CONFIGURATION_MODULE" gate="A" pin="2"/>
@@ -3705,6 +3706,11 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="SCREEN_MODULO" gate="B" pin="2"/>
 <wire x1="274.32" y1="88.9" x2="284.48" y2="88.9" width="0.1524" layer="91"/>
 <label x="284.48" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IMU_MODULE" gate="A" pin="2"/>
+<wire x1="320.04" y1="116.84" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
+<label x="304.8" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DUE_VIN" class="0">
@@ -4083,17 +4089,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="MICROSD_MODULE" gate="A" pin="7"/>
 <wire x1="320.04" y1="134.62" x2="304.8" y2="134.62" width="0.1524" layer="91"/>
 <label x="304.8" y="134.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IMU_VCC" class="0">
-<segment>
-<pinref part="IMU_MODULE" gate="A" pin="1"/>
-<wire x1="320.04" y1="119.38" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
-<label x="307.34" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="320.04" y1="119.38" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
-<label x="307.34" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_VCC" class="0">
