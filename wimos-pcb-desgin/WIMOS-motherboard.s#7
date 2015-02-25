@@ -3265,12 +3265,22 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="241.3" y1="167.64" x2="233.68" y2="167.64" width="0.1524" layer="91"/>
 <label x="233.68" y="167.64" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="ZIGBEE_MODULE" gate="G$1" pin="DOUT"/>
+<wire x1="337.82" y1="200.66" x2="317.5" y2="200.66" width="0.1524" layer="91"/>
+<label x="317.5" y="200.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DUE_RX0" class="0">
 <segment>
 <pinref part="DUE_MODULE2" gate="A" pin="1"/>
 <wire x1="241.3" y1="165.1" x2="233.68" y2="165.1" width="0.1524" layer="91"/>
 <label x="233.68" y="165.1" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="ZIGBEE_MODULE" gate="G$1" pin="DIN/!CONFIG"/>
+<wire x1="337.82" y1="203.2" x2="317.5" y2="203.2" width="0.1524" layer="91"/>
+<label x="317.5" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DUE_SCL" class="0">
@@ -3303,12 +3313,22 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="241.3" y1="149.86" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
 <label x="233.68" y="149.86" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="GPS_MODULE" gate="A" pin="5"/>
+<wire x1="287.02" y1="114.3" x2="279.4" y2="114.3" width="0.1524" layer="91"/>
+<label x="279.4" y="114.3" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="DUE_TX1" class="0">
 <segment>
 <pinref part="DUE_MODULE3" gate="A" pin="5"/>
 <wire x1="241.3" y1="147.32" x2="233.68" y2="147.32" width="0.1524" layer="91"/>
 <label x="233.68" y="147.32" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="GPS_MODULE" gate="A" pin="6"/>
+<wire x1="287.02" y1="111.76" x2="279.4" y2="111.76" width="0.1524" layer="91"/>
+<label x="279.4" y="111.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="DUE_RX2" class="0">
@@ -3479,27 +3499,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="279.4" y="116.84" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="GPS_TX" class="0">
-<segment>
-<pinref part="GPS_MODULE" gate="A" pin="5"/>
-<wire x1="287.02" y1="114.3" x2="279.4" y2="114.3" width="0.1524" layer="91"/>
-<label x="279.4" y="114.3" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="GPS_RX" class="0">
-<segment>
-<pinref part="GPS_MODULE" gate="A" pin="6"/>
-<wire x1="287.02" y1="111.76" x2="279.4" y2="111.76" width="0.1524" layer="91"/>
-<label x="279.4" y="111.76" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="GPS_VIN" class="0">
-<segment>
-<pinref part="GPS_MODULE" gate="A" pin="8"/>
-<wire x1="287.02" y1="106.68" x2="279.4" y2="106.68" width="0.1524" layer="91"/>
-<label x="279.4" y="106.68" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="GPS_PPS" class="0">
 <segment>
 <pinref part="GPS_MODULE" gate="A" pin="9"/>
@@ -3534,6 +3533,16 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="281.94" y1="152.4" x2="274.32" y2="152.4" width="0.1524" layer="91"/>
 <label x="274.32" y="152.4" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="ZIGBEE_MODULE" gate="G$1" pin="VCC"/>
+<wire x1="337.82" y1="218.44" x2="317.5" y2="218.44" width="0.1524" layer="91"/>
+<label x="317.5" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IMU_MODULE" gate="A" pin="1"/>
+<wire x1="320.04" y1="119.38" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
+<label x="302.26" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DUE_5V" class="0">
 <segment>
@@ -3550,6 +3559,11 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="DUE_MODULE4" gate="A" pin="1"/>
 <wire x1="292.1" y1="175.26" x2="312.42" y2="175.26" width="0.1524" layer="91"/>
 <label x="312.42" y="175.26" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="GPS_MODULE" gate="A" pin="8"/>
+<wire x1="287.02" y1="106.68" x2="279.4" y2="106.68" width="0.1524" layer="91"/>
+<label x="279.4" y="106.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -3936,13 +3950,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="284.48" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="XBEE_VCC" class="0">
-<segment>
-<pinref part="ZIGBEE_MODULE" gate="G$1" pin="VCC"/>
-<wire x1="337.82" y1="218.44" x2="317.5" y2="218.44" width="0.1524" layer="91"/>
-<label x="317.5" y="218.44" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="XBEE_RESET_N" class="0">
 <segment>
 <pinref part="ZIGBEE_MODULE" gate="G$1" pin="!RESET"/>
@@ -3962,20 +3969,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="ZIGBEE_MODULE" gate="G$1" pin="PWM0/RSSI"/>
 <wire x1="337.82" y1="208.28" x2="317.5" y2="208.28" width="0.1524" layer="91"/>
 <label x="317.5" y="208.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="XBEE_DIN" class="0">
-<segment>
-<pinref part="ZIGBEE_MODULE" gate="G$1" pin="DIN/!CONFIG"/>
-<wire x1="337.82" y1="203.2" x2="317.5" y2="203.2" width="0.1524" layer="91"/>
-<label x="317.5" y="203.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="XBEE_DOUT" class="0">
-<segment>
-<pinref part="ZIGBEE_MODULE" gate="G$1" pin="DOUT"/>
-<wire x1="337.82" y1="200.66" x2="317.5" y2="200.66" width="0.1524" layer="91"/>
-<label x="317.5" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XBEE_CD" class="0">
@@ -4095,17 +4088,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="MICROSD_MODULE" gate="A" pin="7"/>
 <wire x1="320.04" y1="134.62" x2="304.8" y2="134.62" width="0.1524" layer="91"/>
 <label x="304.8" y="134.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IMU_VCC" class="0">
-<segment>
-<pinref part="IMU_MODULE" gate="A" pin="1"/>
-<wire x1="320.04" y1="119.38" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
-<label x="307.34" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="320.04" y1="119.38" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
-<label x="307.34" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_VCC" class="0">

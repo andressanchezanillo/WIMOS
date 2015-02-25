@@ -46,6 +46,7 @@
 <layer number="50" name="ReferenceLS" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -875,40 +876,6 @@
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 </package>
-<package name="1X04/90">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.715" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="6.985" y="-4.445" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
-<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
-<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
-<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
-<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
-<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
-<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
-<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
-</package>
 <package name="1X05/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-6.35" y1="-1.905" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
@@ -950,54 +917,6 @@
 <rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
 <rectangle x1="4.699" y1="-2.921" x2="5.461" y2="-1.905" layer="21"/>
 </package>
-<package name="1X06/90">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-7.62" y1="-1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="6.985" x2="-6.35" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-1.905" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="6.985" x2="6.35" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-8.255" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="9.525" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-6.731" y1="0.635" x2="-5.969" y2="1.143" layer="21"/>
-<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
-<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
-<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
-<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
-<rectangle x1="5.969" y1="0.635" x2="6.731" y2="1.143" layer="21"/>
-<rectangle x1="-6.731" y1="-2.921" x2="-5.969" y2="-1.905" layer="21"/>
-<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
-<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
-<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
-<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
-<rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
-</package>
 <package name="1X02">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
@@ -1021,61 +940,6 @@
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-</package>
-<package name="1X07/90">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-8.89" y1="-1.905" x2="-6.35" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="-1.905" x2="-6.35" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="0.635" x2="-8.89" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="0.635" x2="-8.89" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="6.985" x2="-7.62" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-6.35" y1="-1.905" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-6.35" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="6.985" x2="-5.08" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="6.35" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="-1.905" x2="6.35" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="0.635" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="6.985" x2="5.08" y2="1.27" width="0.762" layer="21"/>
-<wire x1="6.35" y1="-1.905" x2="8.89" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="-1.905" x2="8.89" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="0.635" x2="6.35" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="6.985" x2="7.62" y2="1.27" width="0.762" layer="21"/>
-<pad name="1" x="-7.62" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-5.08" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="6" x="5.08" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="7" x="7.62" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<text x="-9.525" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="10.795" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-8.001" y1="0.635" x2="-7.239" y2="1.143" layer="21"/>
-<rectangle x1="-5.461" y1="0.635" x2="-4.699" y2="1.143" layer="21"/>
-<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
-<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
-<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
-<rectangle x1="4.699" y1="0.635" x2="5.461" y2="1.143" layer="21"/>
-<rectangle x1="7.239" y1="0.635" x2="8.001" y2="1.143" layer="21"/>
-<rectangle x1="-8.001" y1="-2.921" x2="-7.239" y2="-1.905" layer="21"/>
-<rectangle x1="-5.461" y1="-2.921" x2="-4.699" y2="-1.905" layer="21"/>
-<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
-<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
-<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
-<rectangle x1="4.699" y1="-2.921" x2="5.461" y2="-1.905" layer="21"/>
-<rectangle x1="7.239" y1="-2.921" x2="8.001" y2="-1.905" layer="21"/>
 </package>
 <package name="1X08">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -1154,6 +1018,115 @@
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
 <rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
 <rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
+</package>
+<package name="1X03/90">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+</package>
+<package name="1X04/90">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.715" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="6.985" y="-4.445" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
+<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
+</package>
+<package name="1X06/90">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-7.62" y1="-1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="6.985" x2="-6.35" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="7.62" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-1.905" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="0.635" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="6.985" x2="6.35" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-8.255" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="9.525" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-6.731" y1="0.635" x2="-5.969" y2="1.143" layer="21"/>
+<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
+<rectangle x1="5.969" y1="0.635" x2="6.731" y2="1.143" layer="21"/>
+<rectangle x1="-6.731" y1="-2.921" x2="-5.969" y2="-1.905" layer="21"/>
+<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
+<rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1778,26 +1751,25 @@ design rules under a new name.</description>
 </element>
 <element name="IMU_MODULE" library="pinhead" package="1X04" value="" x="43.5864" y="36.7792" rot="R270"/>
 <element name="I2C_MODULE" library="pinhead" package="1X04" value="" x="28.0416" y="90.8304" rot="R180"/>
-<element name="GPIO_A1" library="pinhead" package="1X04/90" value="" x="18.9992" y="-21.2344" rot="R180"/>
-<element name="GPIO_A2" library="pinhead" package="1X04/90" value="" x="31.6992" y="-21.336" rot="R180"/>
-<element name="GPIO_A3" library="pinhead" package="1X04/90" value="" x="44.196" y="-21.1328" rot="R180"/>
-<element name="GPIO_A4" library="pinhead" package="1X04/90" value="" x="56.7944" y="-20.828" rot="R180"/>
-<element name="GPIO_A5" library="pinhead" package="1X04/90" value="" x="69.3928" y="-20.7264" rot="R180"/>
-<element name="GPIO_A6" library="pinhead" package="1X04/90" value="" x="81.8896" y="-20.9296" rot="R180"/>
-<element name="GPIO_DAC0" library="pinhead" package="1X04/90" value="" x="98.044" y="-21.0312" rot="R180"/>
-<element name="GPIO_DAC1" library="pinhead" package="1X04/90" value="" x="110.9472" y="-20.828" rot="R180"/>
-<element name="GPIO_D1_1B" library="pinhead" package="1X04/90" value="" x="119.5832" y="-4.064" rot="R270"/>
-<element name="GPIO_D2_1B" library="pinhead" package="1X04/90" value="" x="119.6848" y="8.2296" rot="R270"/>
-<element name="GPIO_D1_2B" library="pinhead" package="1X05/90" value="" x="120.0912" y="66.548" rot="R270"/>
-<element name="GPIO_D2_2B" library="pinhead" package="1X05/90" value="" x="120.0912" y="81.788" rot="R270"/>
-<element name="GPIO_D1_3B" library="pinhead" package="1X06/90" value="" x="83.9216" y="95.0976"/>
-<element name="GPIO_D2_3B" library="pinhead" package="1X06/90" value="" x="66.2432" y="94.996"/>
-<element name="GPIO_D3_1B" library="pinhead" package="1X04/90" value="" x="119.5832" y="21.1328" rot="R270"/>
-<element name="GPIO_D4_1B" library="pinhead" package="1X04/90" value="" x="119.6848" y="33.8328" rot="R270"/>
 <element name="CONFIGURATION_MODULE" library="pinhead" package="1X04" value="" x="105.8672" y="73.9648"/>
 <element name="POWER_MODULE" library="pinhead" package="1X02" value="" x="9.0424" y="-8.9408" rot="R90"/>
-<element name="GPIO_D1_4B" library="pinhead" package="1X07/90" value="" x="45.6184" y="94.7928"/>
-<element name="JP1" library="pinhead" package="1X08" value="" x="26.6192" y="28.6512" rot="R270"/>
+<element name="SD_MODULE" library="pinhead" package="1X08" value="" x="26.6192" y="28.6512" rot="R270"/>
+<element name="GPIO_A1_1B" library="pinhead" package="1X03/90" value="" x="-6.604" y="-23.5712"/>
+<element name="GPIO_A2_1B" library="pinhead" package="1X03/90" value="" x="-6.604" y="-37.7952"/>
+<element name="GPIO_A3_1B2" library="pinhead" package="1X03/90" value="" x="-6.604" y="-52.0192"/>
+<element name="GPIO_A4_1B5" library="pinhead" package="1X03/90" value="" x="-6.604" y="-80.4672"/>
+<element name="GPIO_A1_3B" library="pinhead" package="1X05/90" value="" x="-4.064" y="-92.964"/>
+<element name="GPIO_DAC1" library="pinhead" package="1X03/90" value="" x="-18.9992" y="-92.964"/>
+<element name="GPIO_DAC0" library="pinhead" package="1X03/90" value="" x="-18.9992" y="-105.4608"/>
+<element name="GPIO_D2_1B" library="pinhead" package="1X03/90" value="" x="-18.9992" y="-117.9576"/>
+<element name="GPIO_D3_1B" library="pinhead" package="1X03/90" value="" x="-18.9992" y="-130.4544"/>
+<element name="GPIO_D4_1B" library="pinhead" package="1X03/90" value="" x="-18.9992" y="-142.9512"/>
+<element name="GPIO_D1_1B" library="pinhead" package="1X03/90" value="" x="-18.9992" y="-155.448"/>
+<element name="GPIO_D1_2B" library="pinhead" package="1X04/90" value="" x="-17.6784" y="-167.9448"/>
+<element name="GPIO_D2_2B" library="pinhead" package="1X04/90" value="" x="-17.6784" y="-180.4416"/>
+<element name="GPIO_D1_3B" library="pinhead" package="1X05/90" value="" x="-16.4592" y="-192.9384"/>
+<element name="GPIO_D2_3B" library="pinhead" package="1X05/90" value="" x="-16.4592" y="-205.4352"/>
+<element name="GPIO_D1_4B" library="pinhead" package="1X06/90" value="" x="-15.1384" y="-217.932"/>
 </elements>
 <signals>
 <signal name="GND" class="2">
@@ -1808,29 +1780,11 @@ design rules under a new name.</description>
 <contactref element="CONFIGURATION_MODULE" pad="2"/>
 <contactref element="POWER_MODULE" pad="2"/>
 <contactref element="GPS_MODULE" pad="7"/>
-<contactref element="GPIO_A1" pad="4"/>
-<contactref element="GPIO_A2" pad="4"/>
-<contactref element="GPIO_A3" pad="4"/>
-<contactref element="GPIO_A4" pad="4"/>
-<contactref element="GPIO_A5" pad="4"/>
-<contactref element="GPIO_A6" pad="4"/>
-<contactref element="GPIO_DAC0" pad="4"/>
-<contactref element="GPIO_DAC1" pad="4"/>
-<contactref element="GPIO_D1_1B" pad="4"/>
-<contactref element="GPIO_D3_1B" pad="4"/>
-<contactref element="GPIO_D2_1B" pad="4"/>
-<contactref element="GPIO_D4_1B" pad="4"/>
-<contactref element="GPIO_D1_2B" pad="5"/>
-<contactref element="GPIO_D2_2B" pad="5"/>
-<contactref element="GPIO_D1_3B" pad="6"/>
-<contactref element="GPIO_D2_3B" pad="6"/>
-<contactref element="GPIO_D1_4B" pad="7"/>
 <wire x1="43.2816" y1="1.9304" x2="43.688" y2="2.3368" width="0.6096" layer="1"/>
 <wire x1="43.688" y1="2.3368" x2="43.3832" y2="2.3368" width="0.6096" layer="1"/>
 <wire x1="43.3832" y1="2.3368" x2="43.18" y2="2.54" width="0.6096" layer="1"/>
 <wire x1="43.4848" y1="2.8448" x2="43.18" y2="2.54" width="0.6096" layer="1"/>
 <wire x1="53.2384" y1="80.4672" x2="64.6176" y2="69.088" width="1.016" layer="1"/>
-<wire x1="53.2384" y1="90.9828" x2="53.2384" y2="80.4672" width="1.016" layer="1"/>
 <wire x1="65.6336" y1="53.9496" x2="65.6336" y2="46.3296" width="1.016" layer="1"/>
 <wire x1="65.6336" y1="46.3296" x2="57.3532" y2="38.0492" width="1.016" layer="1"/>
 <contactref element="DUE_MODULE4" pad="36"/>
@@ -1855,37 +1809,53 @@ design rules under a new name.</description>
 <wire x1="56.4896" y1="61.28" x2="51.9768" y2="56.7672" width="1.016" layer="1"/>
 <contactref element="IMU_MODULE" pad="2"/>
 <wire x1="43.5864" y1="38.0492" x2="57.3532" y2="38.0492" width="1.016" layer="1"/>
-<contactref element="JP1" pad="6"/>
+<contactref element="SD_MODULE" pad="6"/>
 <wire x1="44.1452" y1="24.8412" x2="44.1452" y2="6.0452" width="1.016" layer="1"/>
 <wire x1="44.1452" y1="6.0452" x2="40.64" y2="2.54" width="1.016" layer="1"/>
-<wire x1="104.5972" y1="73.9648" x2="116.2812" y2="76.708" width="0" layer="19" extent="1-1"/>
-<wire x1="110.8456" y1="55.372" x2="111.252" y2="54.9656" width="0" layer="19" extent="1-1"/>
-<wire x1="118.4656" y1="49.784" x2="118.9736" y2="47.0408" width="0" layer="19" extent="1-1"/>
-<wire x1="116.2812" y1="61.468" x2="116.6368" y2="55.372" width="0" layer="19" extent="1-1"/>
-<wire x1="115.8748" y1="30.0228" x2="116.7384" y2="44.196" width="0" layer="19" extent="1-1"/>
-<wire x1="115.7732" y1="17.3228" x2="115.8748" y2="30.0228" width="0" layer="19" extent="1-1"/>
-<wire x1="115.8748" y1="4.4196" x2="115.7732" y2="17.3228" width="0" layer="19" extent="1-1"/>
-<wire x1="115.7732" y1="-7.874" x2="115.8748" y2="4.4196" width="0" layer="19" extent="1-1"/>
-<wire x1="107.1372" y1="-17.018" x2="115.7732" y2="-7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="94.234" y1="-17.2212" x2="107.1372" y2="-17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="78.0796" y1="-17.1196" x2="94.234" y2="-17.2212" width="0" layer="19" extent="1-1"/>
-<wire x1="65.5828" y1="-16.9164" x2="78.0796" y2="-17.1196" width="0" layer="19" extent="1-1"/>
-<wire x1="52.9844" y1="-17.018" x2="65.5828" y2="-16.9164" width="0" layer="19" extent="1-1"/>
-<wire x1="40.386" y1="-17.3228" x2="52.9844" y2="-17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="27.8892" y1="-17.526" x2="40.386" y2="-17.3228" width="0" layer="19" extent="1-1"/>
-<wire x1="15.1892" y1="-17.4244" x2="27.8892" y2="-17.526" width="0" layer="19" extent="1-1"/>
-<wire x1="9.0424" y1="-7.6708" x2="15.1892" y2="-17.4244" width="0" layer="19" extent="1-1"/>
-<wire x1="43.2816" y1="1.9304" x2="40.386" y2="-17.3228" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="2.54" x2="43.18" y2="2.54" width="0" layer="19" extent="1-1"/>
-<wire x1="72.5932" y1="91.186" x2="53.2384" y2="90.9828" width="0" layer="19" extent="1-1"/>
-<wire x1="90.2716" y1="91.2876" x2="72.5932" y2="91.186" width="0" layer="19" extent="1-1"/>
-<wire x1="96.52" y1="7.62" x2="115.8748" y2="4.4196" width="0" layer="19" extent="1-1"/>
-<wire x1="93.98" y1="7.62" x2="96.52" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="29.3116" y1="90.8304" x2="53.2384" y2="90.9828" width="0" layer="19" extent="1-1"/>
 <wire x1="44.1452" y1="24.8412" x2="41.5544" y2="27.432" width="1.016" layer="1"/>
 <wire x1="41.5544" y1="27.432" x2="31.1912" y2="27.432" width="1.016" layer="1"/>
 <wire x1="31.1912" y1="27.432" x2="28.6004" y2="24.8412" width="1.016" layer="1"/>
 <wire x1="28.6004" y1="24.8412" x2="26.6192" y2="24.8412" width="1.016" layer="1"/>
+<wire x1="40.64" y1="2.54" x2="43.18" y2="2.54" width="1.016" layer="1"/>
+<contactref element="GPIO_A1_1B" pad="1"/>
+<contactref element="GPIO_A2_1B" pad="1"/>
+<contactref element="GPIO_A3_1B2" pad="1"/>
+<contactref element="GPIO_A4_1B5" pad="1"/>
+<contactref element="GPIO_A1_3B" pad="1"/>
+<contactref element="GPIO_DAC0" pad="1"/>
+<contactref element="GPIO_D1_1B" pad="1"/>
+<contactref element="GPIO_DAC1" pad="1"/>
+<contactref element="GPIO_D2_1B" pad="1"/>
+<contactref element="GPIO_D3_1B" pad="1"/>
+<contactref element="GPIO_D4_1B" pad="1"/>
+<contactref element="GPIO_D1_2B" pad="1"/>
+<contactref element="GPIO_D2_2B" pad="1"/>
+<contactref element="GPIO_D1_3B" pad="1"/>
+<contactref element="GPIO_D1_4B" pad="1"/>
+<contactref element="GPIO_D2_3B" pad="1"/>
+<wire x1="-21.5392" y1="-209.2452" x2="-21.4884" y2="-221.742" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.5392" y1="-196.7484" x2="-21.5392" y2="-209.2452" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.4884" y1="-184.2516" x2="-21.5392" y2="-196.7484" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.4884" y1="-171.7548" x2="-21.4884" y2="-184.2516" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.5392" y1="-159.258" x2="-21.4884" y2="-171.7548" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.5392" y1="-146.7612" x2="-21.5392" y2="-159.258" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.5392" y1="-134.2644" x2="-21.5392" y2="-146.7612" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.5392" y1="-121.7676" x2="-21.5392" y2="-134.2644" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.5392" y1="-109.2708" x2="-21.5392" y2="-121.7676" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.5392" y1="-96.774" x2="-21.5392" y2="-109.2708" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.144" y1="-96.774" x2="-21.5392" y2="-96.774" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.144" y1="-84.2772" x2="-9.144" y2="-96.774" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.144" y1="-55.8292" x2="-9.144" y2="-84.2772" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.144" y1="-41.6052" x2="-9.144" y2="-55.8292" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.144" y1="-27.3812" x2="-9.144" y2="-41.6052" width="0" layer="19" extent="1-1"/>
+<wire x1="9.0424" y1="-7.6708" x2="-9.144" y2="-27.3812" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="2.54" x2="9.0424" y2="-7.6708" width="0" layer="19" extent="1-1"/>
+<wire x1="29.3116" y1="90.8304" x2="53.2384" y2="80.4672" width="0" layer="19" extent="1-1"/>
+<wire x1="104.5972" y1="61.6204" x2="65.6336" y2="53.9496" width="0" layer="19" extent="1-1"/>
+<wire x1="110.8456" y1="55.372" x2="111.252" y2="54.9656" width="0" layer="19" extent="1-1"/>
+<wire x1="118.4656" y1="49.784" x2="118.9736" y2="47.0408" width="0" layer="19" extent="1-1"/>
+<wire x1="96.52" y1="7.62" x2="110.8456" y2="44.196" width="0" layer="19" extent="1-1"/>
+<wire x1="93.98" y1="7.62" x2="96.52" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DUE_SCL1">
 <contactref element="DUE_MODULE1" pad="10"/>
@@ -1917,7 +1887,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DUE_PIN13">
 <contactref element="DUE_MODULE1" pad="6"/>
-<contactref element="JP1" pad="5"/>
+<contactref element="SD_MODULE" pad="5"/>
 <wire x1="28.956" y1="50.8" x2="28.8544" y2="50.6984" width="1.016" layer="16"/>
 <wire x1="28.8544" y1="50.6984" x2="28.8544" y2="47.6504" width="1.016" layer="16"/>
 <wire x1="28.8544" y1="47.6504" x2="21.5392" y2="40.3352" width="1.016" layer="16"/>
@@ -1927,7 +1897,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DUE_PIN12">
 <contactref element="DUE_MODULE1" pad="5"/>
-<contactref element="JP1" pad="4"/>
+<contactref element="SD_MODULE" pad="4"/>
 <wire x1="31.496" y1="50.8" x2="30.6832" y2="49.9872" width="1.016" layer="16"/>
 <wire x1="30.6832" y1="49.9872" x2="30.6832" y2="47.1424" width="1.016" layer="16"/>
 <wire x1="30.6832" y1="47.1424" x2="22.9616" y2="39.4208" width="1.016" layer="16"/>
@@ -1937,7 +1907,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DUE_PIN11">
 <contactref element="DUE_MODULE1" pad="4"/>
-<contactref element="JP1" pad="3"/>
+<contactref element="SD_MODULE" pad="3"/>
 <wire x1="34.036" y1="50.8" x2="33.9344" y2="50.6984" width="1.016" layer="16"/>
 <wire x1="33.9344" y1="50.6984" x2="33.9344" y2="48.26" width="1.016" layer="16"/>
 <wire x1="33.9344" y1="48.26" x2="24.384" y2="38.7096" width="1.016" layer="16"/>
@@ -1949,13 +1919,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="DUE_PIN10">
 <contactref element="DUE_MODULE1" pad="3"/>
-<contactref element="JP1" pad="2"/>
+<contactref element="SD_MODULE" pad="2"/>
 <wire x1="36.576" y1="50.8" x2="35.7632" y2="49.9872" width="1.016" layer="16"/>
 <wire x1="35.7632" y1="49.9872" x2="35.7632" y2="47.8536" width="1.016" layer="16"/>
 <wire x1="35.7632" y1="47.8536" x2="28.8544" y2="40.9448" width="1.016" layer="16"/>
 <wire x1="28.8544" y1="40.9448" x2="28.8544" y2="36.8808" width="1.016" layer="16"/>
-<wire x1="28.8544" y1="36.8808" x2="26.9748" y2="35.0012" width="1.016" layer="16"/>
-<wire x1="26.9748" y1="35.0012" x2="26.6192" y2="35.0012" width="1.016" layer="16"/>
+<wire x1="28.8544" y1="36.8808" x2="26.6192" y2="35.0012" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DUE_PIN9">
 <contactref element="DUE_MODULE1" pad="2"/>
@@ -2140,7 +2109,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DUE_5V">
 <contactref element="DUE_MODULE7" pad="5"/>
-<contactref element="JP1" pad="8"/>
+<contactref element="SD_MODULE" pad="8"/>
 <wire x1="26.6192" y1="19.7612" x2="31.8516" y2="19.7612" width="1.016" layer="1"/>
 <wire x1="31.8516" y1="19.7612" x2="38.3032" y2="13.3096" width="1.016" layer="1"/>
 <wire x1="38.3032" y1="13.3096" x2="38.3032" y2="2.3368" width="1.016" layer="1"/>
@@ -2152,100 +2121,52 @@ design rules under a new name.</description>
 <contactref element="DUE_MODULE7" pad="8"/>
 </signal>
 <signal name="DUE_PIN24">
-<contactref element="DUE_MODULE4" pad="32"/>
-</signal>
-<signal name="DUE_PIN28">
-<contactref element="DUE_MODULE4" pad="28"/>
-</signal>
-<signal name="DUE_PIN26">
-<contactref element="DUE_MODULE4" pad="30"/>
-</signal>
-<signal name="DUE_PIN22">
-<contactref element="DUE_MODULE4" pad="34"/>
-</signal>
-<signal name="DUE_PIN25">
-<contactref element="DUE_MODULE4" pad="31"/>
-</signal>
-<signal name="DUE_PIN32">
-<contactref element="DUE_MODULE4" pad="24"/>
-</signal>
-<signal name="DUE_PIN34">
-<contactref element="DUE_MODULE4" pad="22"/>
-</signal>
-<signal name="DUE_PIN36">
-<contactref element="DUE_MODULE4" pad="20"/>
-</signal>
-<signal name="DUE_PIN40">
-<contactref element="DUE_MODULE4" pad="16"/>
-</signal>
-<signal name="DUE_PIN44">
-<contactref element="DUE_MODULE4" pad="12"/>
-</signal>
-<signal name="DUE_PIN48">
-<contactref element="DUE_MODULE4" pad="8"/>
-</signal>
-<signal name="DUE_PIN52">
-<contactref element="DUE_MODULE4" pad="4"/>
-</signal>
-<signal name="DUE_PIN38">
-<contactref element="DUE_MODULE4" pad="18"/>
-</signal>
-<signal name="DUE_PIN42">
-<contactref element="DUE_MODULE4" pad="14"/>
-</signal>
-<signal name="DUE_PIN46">
-<contactref element="DUE_MODULE4" pad="10"/>
-</signal>
-<signal name="DUE_PIN50">
 <contactref element="DUE_MODULE4" pad="6"/>
 </signal>
-<signal name="DUE_PIN23">
-<contactref element="DUE_MODULE4" pad="33"/>
+<signal name="DUE_PIN28">
+<contactref element="DUE_MODULE4" pad="10"/>
 </signal>
-<signal name="DUE_PIN27">
-<contactref element="DUE_MODULE4" pad="29"/>
+<signal name="DUE_PIN26">
+<contactref element="DUE_MODULE4" pad="8"/>
 </signal>
-<signal name="DUE_PIN31">
-<contactref element="DUE_MODULE4" pad="25"/>
+<signal name="DUE_PIN22">
+<contactref element="DUE_MODULE4" pad="4"/>
 </signal>
-<signal name="DUE_PIN33">
-<contactref element="DUE_MODULE4" pad="23"/>
-</signal>
-<signal name="DUE_PIN35">
-<contactref element="DUE_MODULE4" pad="21"/>
-</signal>
-<signal name="DUE_PIN39">
-<contactref element="DUE_MODULE4" pad="17"/>
-</signal>
-<signal name="DUE_PIN37">
-<contactref element="DUE_MODULE4" pad="19"/>
-</signal>
-<signal name="DUE_PIN41">
-<contactref element="DUE_MODULE4" pad="15"/>
-</signal>
-<signal name="DUE_PIN49">
-<contactref element="DUE_MODULE4" pad="7"/>
-</signal>
-<signal name="DUE_PIN45">
-<contactref element="DUE_MODULE4" pad="11"/>
-</signal>
-<signal name="DUE_PIN43">
-<contactref element="DUE_MODULE4" pad="13"/>
-</signal>
-<signal name="DUE_PIN47">
-<contactref element="DUE_MODULE4" pad="9"/>
-</signal>
-<signal name="DUE_PIN51">
+<signal name="DUE_PIN25">
 <contactref element="DUE_MODULE4" pad="5"/>
 </signal>
-<signal name="DUE_PIN53">
+<signal name="DUE_PIN32">
+<contactref element="DUE_MODULE4" pad="14"/>
+</signal>
+<signal name="DUE_PIN34">
+<contactref element="DUE_MODULE4" pad="16"/>
+</signal>
+<signal name="DUE_PIN36">
+<contactref element="DUE_MODULE4" pad="18"/>
+</signal>
+<signal name="DUE_PIN23">
 <contactref element="DUE_MODULE4" pad="3"/>
 </signal>
+<signal name="DUE_PIN27">
+<contactref element="DUE_MODULE4" pad="7"/>
+</signal>
+<signal name="DUE_PIN31">
+<contactref element="DUE_MODULE4" pad="11"/>
+</signal>
+<signal name="DUE_PIN33">
+<contactref element="DUE_MODULE4" pad="13"/>
+</signal>
+<signal name="DUE_PIN35">
+<contactref element="DUE_MODULE4" pad="15"/>
+</signal>
+<signal name="DUE_PIN37">
+<contactref element="DUE_MODULE4" pad="17"/>
+</signal>
 <signal name="DUE_PIN30">
-<contactref element="DUE_MODULE4" pad="26"/>
+<contactref element="DUE_MODULE4" pad="12"/>
 </signal>
 <signal name="DUE_PIN29">
-<contactref element="DUE_MODULE4" pad="27"/>
+<contactref element="DUE_MODULE4" pad="9"/>
 </signal>
 <signal name="SCREEN_PIN1">
 <contactref element="SCREEN_MODULO" pad="1"/>
@@ -2300,120 +2221,134 @@ design rules under a new name.</description>
 <signal name="POWER_VCC">
 <contactref element="POWER_MODULE" pad="1"/>
 </signal>
-<signal name="GPIO_3.3V">
-<contactref element="GPIO_A1" pad="1"/>
-<contactref element="GPIO_A2" pad="1"/>
-<contactref element="GPIO_A3" pad="1"/>
-<contactref element="GPIO_A4" pad="1"/>
-<contactref element="GPIO_A5" pad="1"/>
-<contactref element="GPIO_A6" pad="1"/>
-<contactref element="GPIO_DAC0" pad="1"/>
-<contactref element="GPIO_DAC1" pad="1"/>
-<contactref element="GPIO_D1_1B" pad="1"/>
-<contactref element="GPIO_D2_1B" pad="1"/>
-<contactref element="GPIO_D3_1B" pad="1"/>
-<contactref element="GPIO_D4_1B" pad="1"/>
-<contactref element="GPIO_D1_2B" pad="1"/>
-<contactref element="GPIO_D2_2B" pad="1"/>
-<contactref element="GPIO_D1_3B" pad="1"/>
-<contactref element="GPIO_D2_3B" pad="1"/>
-<contactref element="GPIO_D1_4B" pad="1"/>
-<wire x1="116.2812" y1="71.628" x2="116.2812" y2="86.868" width="0" layer="19" extent="1-1"/>
-<wire x1="115.8748" y1="37.6428" x2="116.2812" y2="71.628" width="0" layer="19" extent="1-1"/>
-<wire x1="115.7732" y1="24.9428" x2="115.8748" y2="37.6428" width="0" layer="19" extent="1-1"/>
-<wire x1="115.8748" y1="12.0396" x2="115.7732" y2="24.9428" width="0" layer="19" extent="1-1"/>
-<wire x1="115.7732" y1="-0.254" x2="115.8748" y2="12.0396" width="0" layer="19" extent="1-1"/>
-<wire x1="114.7572" y1="-17.018" x2="115.7732" y2="-0.254" width="0" layer="19" extent="1-1"/>
-<wire x1="101.854" y1="-17.2212" x2="114.7572" y2="-17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="85.6996" y1="-17.1196" x2="101.854" y2="-17.2212" width="0" layer="19" extent="1-1"/>
-<wire x1="73.2028" y1="-16.9164" x2="85.6996" y2="-17.1196" width="0" layer="19" extent="1-1"/>
-<wire x1="60.6044" y1="-17.018" x2="73.2028" y2="-16.9164" width="0" layer="19" extent="1-1"/>
-<wire x1="48.006" y1="-17.3228" x2="60.6044" y2="-17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="35.5092" y1="-17.526" x2="48.006" y2="-17.3228" width="0" layer="19" extent="1-1"/>
-<wire x1="22.8092" y1="-17.4244" x2="35.5092" y2="-17.526" width="0" layer="19" extent="1-1"/>
-<wire x1="77.5716" y1="91.2876" x2="116.2812" y2="86.868" width="0" layer="19" extent="1-1"/>
-<wire x1="59.8932" y1="91.186" x2="77.5716" y2="91.2876" width="0" layer="19" extent="1-1"/>
-<wire x1="37.9984" y1="90.9828" x2="59.8932" y2="91.186" width="0" layer="19" extent="1-1"/>
+<signal name="DUE_5V2">
+<contactref element="DUE_MODULE4" pad="2"/>
+<contactref element="DUE_MODULE4" pad="1"/>
+<contactref element="GPS_MODULE" pad="8"/>
+<wire x1="93.98" y1="50.8" x2="96.52" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="64.6176" y1="66.548" x2="83.2104" y2="66.548" width="1.016" layer="16"/>
+<wire x1="83.2104" y1="66.548" x2="94.2848" y2="55.4736" width="1.016" layer="16"/>
+<wire x1="94.2848" y1="55.4736" x2="94.2848" y2="51.1048" width="1.016" layer="16"/>
+<wire x1="94.2848" y1="51.1048" x2="93.98" y2="50.8" width="1.016" layer="16"/>
 </signal>
-<signal name="GPIO_5V">
-<contactref element="GPIO_A1" pad="2"/>
-<contactref element="GPIO_A2" pad="2"/>
-<contactref element="GPIO_A3" pad="2"/>
-<contactref element="GPIO_A4" pad="2"/>
-<contactref element="GPIO_A5" pad="2"/>
-<contactref element="GPIO_A6" pad="2"/>
+<signal name="SD_CD">
+<contactref element="SD_MODULE" pad="1"/>
+</signal>
+<signal name="SD_3.3V">
+<contactref element="SD_MODULE" pad="7"/>
+</signal>
+<signal name="DUE_PIN38">
+<contactref element="DUE_MODULE4" pad="20"/>
+</signal>
+<signal name="DUE_PIN40">
+<contactref element="DUE_MODULE4" pad="22"/>
+</signal>
+<signal name="DUE_PIN42">
+<contactref element="DUE_MODULE4" pad="24"/>
+</signal>
+<signal name="DUE_PIN44">
+<contactref element="DUE_MODULE4" pad="26"/>
+</signal>
+<signal name="DUE_PIN46">
+<contactref element="DUE_MODULE4" pad="28"/>
+</signal>
+<signal name="DUE_PIN48">
+<contactref element="DUE_MODULE4" pad="30"/>
+</signal>
+<signal name="DUE_PIN50">
+<contactref element="DUE_MODULE4" pad="32"/>
+</signal>
+<signal name="DUE_PIN52">
+<contactref element="DUE_MODULE4" pad="34"/>
+</signal>
+<signal name="DUE_PIN39">
+<contactref element="DUE_MODULE4" pad="19"/>
+</signal>
+<signal name="DUE_PIN41">
+<contactref element="DUE_MODULE4" pad="21"/>
+</signal>
+<signal name="DUE_PIN43">
+<contactref element="DUE_MODULE4" pad="23"/>
+</signal>
+<signal name="DUE_PIN45">
+<contactref element="DUE_MODULE4" pad="25"/>
+</signal>
+<signal name="DUE_PIN47">
+<contactref element="DUE_MODULE4" pad="27"/>
+</signal>
+<signal name="DUE_PIN49">
+<contactref element="DUE_MODULE4" pad="29"/>
+</signal>
+<signal name="DUE_PIN51">
+<contactref element="DUE_MODULE4" pad="31"/>
+</signal>
+<signal name="DUE_PIN53">
+<contactref element="DUE_MODULE4" pad="33"/>
+</signal>
+<signal name="5V">
+<contactref element="GPIO_A1_1B" pad="2"/>
+<contactref element="GPIO_A2_1B" pad="2"/>
+<contactref element="GPIO_A3_1B2" pad="2"/>
+<contactref element="GPIO_A4_1B5" pad="2"/>
+<contactref element="GPIO_A1_3B" pad="2"/>
 <contactref element="GPIO_DAC0" pad="2"/>
-<contactref element="GPIO_DAC1" pad="2"/>
 <contactref element="GPIO_D1_1B" pad="2"/>
-<contactref element="GPIO_D3_1B" pad="2"/>
+<contactref element="GPIO_DAC1" pad="2"/>
 <contactref element="GPIO_D2_1B" pad="2"/>
+<contactref element="GPIO_D3_1B" pad="2"/>
 <contactref element="GPIO_D4_1B" pad="2"/>
 <contactref element="GPIO_D1_2B" pad="2"/>
 <contactref element="GPIO_D2_2B" pad="2"/>
 <contactref element="GPIO_D1_3B" pad="2"/>
-<contactref element="GPIO_D2_3B" pad="2"/>
 <contactref element="GPIO_D1_4B" pad="2"/>
-<wire x1="116.2812" y1="69.088" x2="116.2812" y2="84.328" width="0" layer="19" extent="1-1"/>
-<wire x1="115.8748" y1="35.1028" x2="116.2812" y2="69.088" width="0" layer="19" extent="1-1"/>
-<wire x1="115.7732" y1="22.4028" x2="115.8748" y2="35.1028" width="0" layer="19" extent="1-1"/>
-<wire x1="115.8748" y1="9.4996" x2="115.7732" y2="22.4028" width="0" layer="19" extent="1-1"/>
-<wire x1="115.7732" y1="-2.794" x2="115.8748" y2="9.4996" width="0" layer="19" extent="1-1"/>
-<wire x1="112.2172" y1="-17.018" x2="115.7732" y2="-2.794" width="0" layer="19" extent="1-1"/>
-<wire x1="99.314" y1="-17.2212" x2="112.2172" y2="-17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="83.1596" y1="-17.1196" x2="99.314" y2="-17.2212" width="0" layer="19" extent="1-1"/>
-<wire x1="70.6628" y1="-16.9164" x2="83.1596" y2="-17.1196" width="0" layer="19" extent="1-1"/>
-<wire x1="58.0644" y1="-17.018" x2="70.6628" y2="-16.9164" width="0" layer="19" extent="1-1"/>
-<wire x1="45.466" y1="-17.3228" x2="58.0644" y2="-17.018" width="0" layer="19" extent="1-1"/>
-<wire x1="32.9692" y1="-17.526" x2="45.466" y2="-17.3228" width="0" layer="19" extent="1-1"/>
-<wire x1="20.2692" y1="-17.4244" x2="32.9692" y2="-17.526" width="0" layer="19" extent="1-1"/>
-<wire x1="80.1116" y1="91.2876" x2="116.2812" y2="84.328" width="0" layer="19" extent="1-1"/>
-<wire x1="62.4332" y1="91.186" x2="80.1116" y2="91.2876" width="0" layer="19" extent="1-1"/>
-<wire x1="40.5384" y1="90.9828" x2="62.4332" y2="91.186" width="0" layer="19" extent="1-1"/>
+<contactref element="GPIO_D2_3B" pad="2"/>
+<wire x1="-18.9992" y1="-209.2452" x2="-18.9484" y2="-221.742" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.9992" y1="-196.7484" x2="-18.9992" y2="-209.2452" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.9484" y1="-184.2516" x2="-18.9992" y2="-196.7484" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.9484" y1="-171.7548" x2="-18.9484" y2="-184.2516" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.9992" y1="-159.258" x2="-18.9484" y2="-171.7548" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.9992" y1="-146.7612" x2="-18.9992" y2="-159.258" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.9992" y1="-134.2644" x2="-18.9992" y2="-146.7612" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.9992" y1="-121.7676" x2="-18.9992" y2="-134.2644" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.9992" y1="-109.2708" x2="-18.9992" y2="-121.7676" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.9992" y1="-96.774" x2="-18.9992" y2="-109.2708" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.604" y1="-96.774" x2="-18.9992" y2="-96.774" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.604" y1="-84.2772" x2="-6.604" y2="-96.774" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.604" y1="-55.8292" x2="-6.604" y2="-84.2772" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.604" y1="-41.6052" x2="-6.604" y2="-55.8292" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.604" y1="-27.3812" x2="-6.604" y2="-41.6052" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GPIO_A2">
-<contactref element="GPIO_A2" pad="3"/>
+<signal name="GPIO_A1_1B">
+<contactref element="GPIO_A1_1B" pad="3"/>
+<contactref element="GPIO_A2_1B" pad="3"/>
+<contactref element="GPIO_A3_1B2" pad="3"/>
+<contactref element="GPIO_A4_1B5" pad="3"/>
+<wire x1="-4.064" y1="-55.8292" x2="-4.064" y2="-84.2772" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.064" y1="-41.6052" x2="-4.064" y2="-55.8292" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.064" y1="-27.3812" x2="-4.064" y2="-41.6052" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GPIO_A3">
-<contactref element="GPIO_A3" pad="3"/>
+<signal name="GPIO_A1_3.1B">
+<contactref element="GPIO_A1_3B" pad="3"/>
 </signal>
-<signal name="GPIO_A4">
-<contactref element="GPIO_A4" pad="3"/>
+<signal name="GPIO_A1_3.2B">
+<contactref element="GPIO_A1_3B" pad="4"/>
 </signal>
-<signal name="GPIO_A5">
-<contactref element="GPIO_A5" pad="3"/>
+<signal name="GPIO_A1_3.3B">
+<contactref element="GPIO_A1_3B" pad="5"/>
 </signal>
-<signal name="GPIO_A6">
-<contactref element="GPIO_A6" pad="3"/>
-</signal>
-<signal name="GPIO_DAC0">
-<contactref element="GPIO_DAC0" pad="3"/>
-</signal>
-<signal name="GPIO_DAC1">
-<contactref element="GPIO_DAC1" pad="3"/>
-</signal>
-<signal name="GPIO_D1_1B">
-<contactref element="GPIO_D1_1B" pad="3"/>
-</signal>
-<signal name="GPIO_D3_1B">
-<contactref element="GPIO_D3_1B" pad="3"/>
+<signal name="GPIO_D4_B1">
+<contactref element="GPIO_D4_1B" pad="3"/>
 </signal>
 <signal name="GPIO_D1_2.1B">
 <contactref element="GPIO_D1_2B" pad="3"/>
 </signal>
-<signal name="GPIO_D1_2.2B">
+<signal name="GPIO_D2_2.2B">
 <contactref element="GPIO_D1_2B" pad="4"/>
-</signal>
-<signal name="GPIO_D2_1B">
-<contactref element="GPIO_D2_1B" pad="3"/>
-</signal>
-<signal name="GPIO_D4_1B">
-<contactref element="GPIO_D4_1B" pad="3"/>
+<contactref element="GPIO_D2_2B" pad="4"/>
+<wire x1="-13.8684" y1="-171.7548" x2="-13.8684" y2="-184.2516" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO_D2_2.1B">
 <contactref element="GPIO_D2_2B" pad="3"/>
-</signal>
-<signal name="GPIO_D2_2.2B">
-<contactref element="GPIO_D2_2B" pad="4"/>
 </signal>
 <signal name="GPIO_D1_3.1B">
 <contactref element="GPIO_D1_3B" pad="3"/>
@@ -2427,13 +2362,13 @@ design rules under a new name.</description>
 <signal name="GPIO_D1_4.1B">
 <contactref element="GPIO_D1_4B" pad="3"/>
 </signal>
-<signal name="GPIO_D1_4.2B">
+<signal name="GPIO_D4_4.2B">
 <contactref element="GPIO_D1_4B" pad="4"/>
 </signal>
-<signal name="GPIO_D1_4.3B">
+<signal name="GPIO_D4_4.3B">
 <contactref element="GPIO_D1_4B" pad="5"/>
 </signal>
-<signal name="GPIO_D1_4.4B">
+<signal name="GPIO_D4_4.4B">
 <contactref element="GPIO_D1_4B" pad="6"/>
 </signal>
 <signal name="GPIO_D2_3.1B">
@@ -2445,24 +2380,20 @@ design rules under a new name.</description>
 <signal name="GPIO_D2_3.3B">
 <contactref element="GPIO_D2_3B" pad="5"/>
 </signal>
-<signal name="GPIO_A1">
-<contactref element="GPIO_A1" pad="3"/>
+<signal name="GPIO_DAC0">
+<contactref element="GPIO_DAC0" pad="3"/>
 </signal>
-<signal name="DUE_5V2">
-<contactref element="DUE_MODULE4" pad="2"/>
-<contactref element="DUE_MODULE4" pad="1"/>
-<contactref element="GPS_MODULE" pad="8"/>
-<wire x1="93.98" y1="50.8" x2="96.52" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="64.6176" y1="66.548" x2="83.2104" y2="66.548" width="1.016" layer="16"/>
-<wire x1="83.2104" y1="66.548" x2="94.2848" y2="55.4736" width="1.016" layer="16"/>
-<wire x1="94.2848" y1="55.4736" x2="94.2848" y2="51.1048" width="1.016" layer="16"/>
-<wire x1="94.2848" y1="51.1048" x2="93.98" y2="50.8" width="1.016" layer="16"/>
+<signal name="GPIO_D1_1B">
+<contactref element="GPIO_D1_1B" pad="3"/>
 </signal>
-<signal name="SD_CD">
-<contactref element="JP1" pad="1"/>
+<signal name="GPIO_DAC1">
+<contactref element="GPIO_DAC1" pad="3"/>
 </signal>
-<signal name="SD_3.3V">
-<contactref element="JP1" pad="7"/>
+<signal name="GPIO_D2_1B">
+<contactref element="GPIO_D2_1B" pad="3"/>
+</signal>
+<signal name="GPIO_D3_1B">
+<contactref element="GPIO_D3_1B" pad="3"/>
 </signal>
 </signals>
 </board>
